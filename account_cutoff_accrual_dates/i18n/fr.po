@@ -27,13 +27,13 @@ msgstr "Provisions comptables"
 #: code:addons/account_cutoff_accrual_dates/models/account_cutoff.py:86
 #, python-format
 msgid "Missing 'Accrued Expense Tax Account' on tax '%s'"
-msgstr ""
+msgstr "Manque 'Compte de taxe sur factures à payer' sur la taxe '%s'"
 
 #. module: account_cutoff_accrual_dates
 #: code:addons/account_cutoff_accrual_dates/models/account_cutoff.py:92
 #, python-format
 msgid "Missing 'Accrued Revenue Tax Account' on tax '%s'"
-msgstr ""
+msgstr "Manque 'Compte de taxe sur factures à établir' sur la taxe '%s'"
 
 #. module: account_cutoff_accrual_dates
 #: code:addons/account_cutoff_accrual_dates/models/account_cutoff.py:79
@@ -42,6 +42,8 @@ msgid ""
 "Price included taxes such as '%s' are not supported by the module "
 "account_cutoff_accrual_dates for the moment."
 msgstr ""
+"Les taxes incluse dans le prix comme '%s' ne sont pas gérées par le module "
+"account_cutoff_accrual_dates pour le moment."
 
 #. module: account_cutoff_accrual_dates
 #: code:addons/account_cutoff_accrual_dates/models/account_cutoff.py:114

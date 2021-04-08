@@ -3,7 +3,6 @@
 # * account_cutoff_accrual_base
 #
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
@@ -117,7 +116,7 @@ msgstr "Journal par défaut pour les factures à établir"
 #. module: account_cutoff_accrual_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_base.field_account_cutoff_line__price_origin
 msgid "Price Origin"
-msgstr ""
+msgstr "Origine des prix"
 
 #. module: account_cutoff_accrual_base
 #: model:ir.model.fields,help:account_cutoff_accrual_base.field_account_cutoff_line__price_unit
@@ -125,6 +124,8 @@ msgid ""
 "Price per unit (discount included) in the default unit of measure of the "
 "product in the currency of the 'Currency' field."
 msgstr ""
+"Prix par unité (remise incluse) dans l'unité de mesure par défaut du produit "
+"dans la devise du champ \"Devise\"."
 
 #. module: account_cutoff_accrual_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_base.field_account_cutoff_line__quantity
@@ -143,9 +144,9 @@ msgid ""
 "accrued expenses. It then allows to generate the corresponding cut-off "
 "journal entry in one click."
 msgstr ""
-"Cette vue peut etre utilisee par les comptables pour cueillir informations "
-"sur les depenses accrues. Il peut donc aider a creer l'introduction relative "
-"d'interruption mise a jour d'un clic."
+"Cette vue peut être utilisée par les comptables afin de collecter "
+"l'information sur les charges à payer. Cela autorise à générer les écritures "
+"dans le journal d'inventaire correspondant en un clic."
 
 #. module: account_cutoff_accrual_base
 #: model_terms:ir.actions.act_window,help:account_cutoff_accrual_base.account_revenue_accrual_action
@@ -154,9 +155,9 @@ msgid ""
 "accrued revenue. It then allows to generate the corresponding cut-off "
 "journal entry in one click."
 msgstr ""
-"Cette vue peut etre utilisee a la comptabilite afin de pouvoir cueillir des "
-"informations sur les revenues accrues. Il peut alors faciliter "
-"l'introduction correspondante de cut-off mise a jour d'un clic."
+"Cette vue peut être utilisée par les comptables afin de collecter "
+"l'information sur les produits à recevoir. Cela autorise à générer les "
+"écritures dans le journal d'inventaire correspondant en un clic."
 
 #. module: account_cutoff_accrual_base
 #: model:ir.model.fields,field_description:account_cutoff_accrual_base.field_account_cutoff_line__price_unit
